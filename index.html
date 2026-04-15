@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Craftrdle</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div></div>
+      <div class="title-wrap">
+        <h1>Craftrdle</h1>
+        <p>CraftersMC item guessing game</p>
+
+      <div class="title-actions">
+        <button id="help-btn" class="icon-btn" aria-label="Help">📖</button>
+        <button id="stats-btn" class="icon-btn" aria-label="Stats">📊</button>
+        <button id="new-game-btn" class="icon-btn" aria-label="New Game">🔁</button>
+      </div>
+    </div>
+    </header>
+
+    <main class="container">
+      <div id="win-actions" class="win-actions hidden">
+        <button id="play-again-btn">🎮</button>
+        
+        <div id="answer-reveal" class="answer-reveal hidden"></div>
+      </div>
+
+      <div class="guess-section">
+        <div class="guess-row">
+          <input id="guess-input" type="text" placeholder="Type an item name..." autocomplete="off" />
+          <button id="guess-btn">📥</button>
+        </div>
+
+        <div id="error-box" class="error-box"></div>
+        <div id="guesses-left" class="guesses-left"></div>
+        <div id="suggestions" class="suggestions"></div>
+      </div>
+
+      <div id="guesses" class="guesses"></div>
+    </main>
+  </div>
+
+  <div id="help-modal" class="modal hidden">
+  <div class="modal-backdrop"></div>
+
+  <div class="modal-content">
+    <button id="close-help-btn" class="modal-close" aria-label="Close">×</button>
+
+    <h2>How to Play</h2>
+
+    <p>
+      Guess the secret CraftersMC item by entering item names and comparing the item features. You have 10 guesses to find the correct item.
+    </p>
+
+    <p>
+      <b>Item Type Tip</b> - Items related to minions or pets will say CLOSE for the item type for each other. For example, if you have to guess Small Minion Backpack, and you guess Foul Flesh, it'll say CLOSE since they are both minion items.
+    </p>
+
+    <p>
+      <b>Obtaining Tip</b> - Similar to the previous hint, items whose recipes are from collections will say CLOSE for the obtaining hint for each other. For example, if you have to guess Revenant Falchion which is a Slayer collection item, and you guess Farmer Orb which is a Farming collection item, it'll say CLOSE since they are both connected to a collection.
+    </p>
+  </div>
+</div>
+
+<div id="stats-modal" class="modal hidden">
+  <div id="stats-backdrop" class="modal-backdrop"></div>
+
+  <div class="modal-content">
+    <button id="close-stats-btn" class="modal-close" aria-label="Close">×</button>
+
+    <h2>Stats</h2>
+
+    <p id="stats-played">
+  🎮 Played games: <span id="stats-played-count">0</span>
+  (<span id="stats-wins" class="stats-win">0W</span>/<span id="stats-losses" class="stats-loss">0L</span>)
+</p>
+    <p id="stats-best-solve">⭐ Best solve: —</p>
+  </div>
+</div>
+
+  <div id="confetti-container" class="confetti-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
