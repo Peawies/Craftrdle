@@ -1002,7 +1002,7 @@ const ITEMS = [
   {
     id: "campfire-adept-badge",
     name: "Campfire Adept Badge",
-    rarity: "Common",
+    rarity: "Uncommon",
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Quest"],
