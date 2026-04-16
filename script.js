@@ -2628,7 +2628,7 @@ function renderGuessesLeft() {
 
 function startNewGame() {
   answer = getRandomItem();
-  console.log("Current answer:", answer);
+  console.log("Why are you trying to cheat in this very simple game? Anyways, here you go:", answer);
   guesses = [];
   won = false;
   lost = false;
