@@ -1746,7 +1746,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "https://craftersmc.wiki.gg/images/Hoe of Great Tilling.png",
+    image: "https://craftersmc.wiki.gg/images/Hoe_of_Great_Tilling.png",
     enabled: true,
   },
   {
@@ -1756,7 +1756,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "https://craftersmc.wiki.gg/images/Hoe of Greater Tilling.png",
+    image: "https://craftersmc.wiki.gg/images/Hoe_of_Greater_Tilling.png",
     enabled: true,
   },
   {
@@ -1766,7 +1766,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "https://craftersmc.wiki.gg/images/Hoe of Greatest Tilling.png",
+    image: "https://craftersmc.wiki.gg/images/Hoe_of_Greatest_Tilling.png",
     enabled: true,
   },
   {
