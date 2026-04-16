@@ -496,7 +496,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "https://craftersmc.wiki.gg/images/Farm_Chestplate.png",
+    image: "https://craftersmc.wiki.gg/images/Farm_Armor_Chestplate.png",
     enabled: true,
   },
   {
@@ -506,7 +506,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "https://craftersmc.wiki.gg/images/Farmer_Suit.png",
+    image: "https://craftersmc.wiki.gg/images/Farmer_Suit_Chestplate.png",
     enabled: true,
   },
   {
