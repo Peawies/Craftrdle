@@ -265,7 +265,7 @@ const ITEMS = [
     rarity: "Rare",
     itemType: "Weapon",
     addedVersion: "0.4",
-    obtaining: ["Farming Collections"],
+    obtaining: ["Foraging Collections"],
     image: "https://craftersmc.wiki.gg/images/Bamboo_Blowpipe.png",
     enabled: true,
   },
@@ -965,7 +965,7 @@ const ITEMS = [
     rarity: "Uncommon",
     itemType: "Accessory",
     addedVersion: "0.4",
-    obtaining: ["Farming Collections"],
+    obtaining: ["Foraging Collections"],
     image: "https://craftersmc.wiki.gg/images/Bamboo_Ring.png",
     enabled: true,
   },
@@ -975,7 +975,7 @@ const ITEMS = [
     rarity: "Common",
     itemType: "Accessory",
     addedVersion: "0.4",
-    obtaining: ["Farming Collections"],
+    obtaining: ["Foraging Collections"],
     image: "https://craftersmc.wiki.gg/images/Bamboo_Talisman.png",
     enabled: true,
   },
@@ -2452,6 +2452,7 @@ const guessesEl = document.getElementById("guesses");
 const suggestionsEl = document.getElementById("suggestions");
 const errorBox = document.getElementById("error-box");
 const winActions = document.getElementById("win-actions");
+const shareBtn = document.getElementById("share-btn");
 const playAgainBtn = document.getElementById("play-again-btn");
 const answerReveal = document.getElementById("answer-reveal");
 const MAX_GUESSES = 10;
@@ -2626,6 +2627,53 @@ function renderGuessesLeft() {
   }
 }
 
+function hintToSquare(hint) {
+  if (hint === "correct") return "🟩";
+  if (hint === "close") return "🟪";
+  return "⬜";
+}
+
+function guessToShareRow(guess) {
+  const itemSquare = guess.isCorrect ? "🟨︱" : "⬜︱";
+
+  return [
+    itemSquare,
+    hintToSquare(guess.rarityHint),
+    hintToSquare(guess.itemTypeHint),
+    hintToSquare(guess.obtainingHint),
+    hintToSquare(guess.addedVersionHint),
+  ].join("");
+}
+
+function buildShareText() {
+const resultText = won
+  ? `in ${guesses.length} ${guesses.length === 1 ? "guess" : "guesses"} 🎉`
+  : `❌/${MAX_GUESSES}`;
+
+  const rows = [...guesses]
+    .map(guessToShareRow)
+    .join("\n");
+
+  return `Craftrdle🗓️ ${resultText}\n\n${rows}`;
+}
+
+async function copyShareResult() {
+  const text = buildShareText();
+
+  try {
+    await navigator.clipboard.writeText(text);
+
+    shareBtn.textContent = "Copied";
+
+    setTimeout(() => {
+      shareBtn.textContent = "Share Results";
+    }, 1200);
+  } catch {
+    console.log(text);
+    alert("Error copying.");
+  }
+}
+
 function startNewGame() {
   answer = getRandomItem();
   console.log("Why are you trying to cheat in this very simple game? Anyways, here you go:", answer);
@@ -2637,6 +2685,7 @@ function startNewGame() {
   clearError();
   suggestionsEl.innerHTML = "";
   winActions.classList.add("hidden");
+  shareBtn.classList.add("hidden");
   answerReveal.classList.add("hidden");
   answerReveal.textContent = "";
   renderGuesses();
@@ -2872,6 +2921,8 @@ if (result.isCorrect) {
   saveStats();
 
   winActions.classList.remove("hidden");
+  shareBtn.classList.remove("hidden");
+
   renderGuesses();
   renderGuessesLeft();
   launchConfetti();
@@ -2896,6 +2947,7 @@ if (guesses.length >= MAX_GUESSES) {
 
   winActions.classList.remove("hidden");
   playAgainBtn.textContent = `Play Again`;
+  shareBtn.classList.remove("hidden");
 
   answerReveal.textContent = `The correct answer was ${answer.name}.`;
   answerReveal.classList.remove("hidden");
@@ -2926,6 +2978,7 @@ statsBackdrop.addEventListener("click", closeStatsModal);
 
 helpBtn.addEventListener("click", openHelpModal);
 closeHelpBtn.addEventListener("click", closeHelpModal);
+shareBtn.addEventListener("click", copyShareResult);
 modalBackdrop.addEventListener("click", closeHelpModal);
 
 document.addEventListener("keydown", (e) => {
