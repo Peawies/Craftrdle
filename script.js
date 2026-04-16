@@ -2475,7 +2475,10 @@ function closeHelpModal() {
 }
 
 function normalizeText(value) {
-  return value.trim().toLowerCase();
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, "");
 }
 
 function getEnabledItems() {
@@ -2698,9 +2701,29 @@ function renderSuggestions() {
 
   if (!value || won) return;
 
-  const matches = getEnabledItems()
-    .filter((item) => normalizeText(item.name).includes(value))
-    .slice(0, 8);
+const matches = getEnabledItems()
+  .map((item) => {
+    const name = normalizeText(item.name);
+    const words = name.split(" ");
+
+    let score = -1;
+
+    if (name === value) {
+      score = 100;
+    } else if (name.startsWith(value)) {
+      score = 80;
+    } else if (words.some(word => word.startsWith(value))) {
+      score = 60;
+    } else if (name.includes(value)) {
+      score = 40;
+    }
+
+    return { item, score };
+  })
+  .filter(entry => entry.score >= 0)
+  .sort((a, b) => b.score - a.score || a.item.name.localeCompare(b.item.name))
+  .slice(0, 8)
+  .map(entry => entry.item);
 
   for (const item of matches) {
   const btn = document.createElement("button");
