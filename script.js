@@ -1,32 +1,32 @@
 const ITEMS = [
   {
-    id: "aotd",
+    id: "aspect-of-the-dragons",
     name: "Aspect of the Dragons",
     rarity: "Legendary",
     itemType: "Weapon",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/AOTD.png",
+    image: "https://craftersmc.wiki.gg/images/Aspect_of_the_Dragons.png",
     enabled: true,
   },
   {
-    id: "aote",
+    id: "aspect-of-the-end",
     name: "Aspect of the End",
     rarity: "Rare",
     itemType: "Weapon",
     addedVersion: "0.5",
     obtaining: ["Combat Collections"],
-    image: "items/AOTE.png",
+    image: "https://craftersmc.wiki.gg/images/Aspect_of_the_End.png",
     enabled: true,
   },
   {
-    id: "aots",
+    id: "axe-of-the-shredded",
     name: "Axe of The Shredded",
     rarity: "Legendary",
     itemType: "Weapon",
     addedVersion: "0.3",
     obtaining: ["Slayer Collections"],
-    image: "items/AOTS.png",
+    image: "https://craftersmc.wiki.gg/images/Axe_of_The_Shredded.png",
     enabled: true,
   },
   {
@@ -36,7 +36,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Cleaver.png",
+    image: "https://craftersmc.wiki.gg/images/Cleaver.png",
     enabled: true,
   },
   {
@@ -46,7 +46,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Edible_Mace.png",
+    image: "https://craftersmc.wiki.gg/images/Edible_Mace.png",
     enabled: true,
   },
   {
@@ -56,7 +56,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Emerald_Blade.png",
+    image: "https://craftersmc.wiki.gg/images/Emerald_Blade.png",
     enabled: true,
   },
   {
@@ -66,7 +66,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.5",
     obtaining: ["Mining Collecions"],
-    image: "items/End_Stone_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/End_Stone_Sword.png",
     enabled: true,
   },
   {
@@ -76,7 +76,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Ethereal_Scythe.png",
+    image: "https://craftersmc.wiki.gg/images/Ethereal_Scythe.png",
     enabled: true,
   },
   {
@@ -86,7 +86,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Frozen_Scythe.png",
+    image: "https://craftersmc.wiki.gg/images/Frozen_Scythe.png",
     enabled: true,
   },
   {
@@ -96,7 +96,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.4",
     obtaining: ["Slayer Collections"],
-    image: "items/Glacial_Trident.png",
+    image: "https://craftersmc.wiki.gg/images/Glacial_Trident.png",
     enabled: true,
   },
   {
@@ -106,7 +106,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Golem_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Golem_Sword.png",
     enabled: true,
   },
   {
@@ -116,7 +116,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Leaping_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Leaping_Sword.png",
     enabled: true,
   },
   {
@@ -126,7 +126,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.2",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Ornate_Zombie_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Ornate_Zombie_Sword.png",
     enabled: true,
   },
   {
@@ -136,7 +136,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.3",
     obtaining: ["Farming Collections"],
-    image: "items/Pigman_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Pigman_Sword.png",
     enabled: true,
   },
   {
@@ -146,7 +146,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Pooch_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Pooch_Sword.png",
     enabled: true,
   },
   {
@@ -156,7 +156,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Quest"],
-    image: "items/Raider_Axe.png",
+    image: "https://craftersmc.wiki.gg/images/Raider_Axe.png",
     enabled: true,
   },
   {
@@ -166,7 +166,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Reaper_Falchion.png",
+    image: "https://craftersmc.wiki.gg/images/Reaper_Falchion.png",
     enabled: true,
   },
   {
@@ -176,7 +176,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Revenant_Falchion.png",
+    image: "https://craftersmc.wiki.gg/images/Revenant_Falchion.png",
     enabled: true,
   },
   {
@@ -186,7 +186,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Quest", "Purchasable"],
-    image: "items/Rogue_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Rogue_Sword.png",
     enabled: true,
   },
   {
@@ -196,7 +196,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Shaman_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Shaman_Sword.png",
     enabled: true,
   },
   {
@@ -206,7 +206,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Spider_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Spider_Sword.png",
     enabled: true,
   },
   {
@@ -216,7 +216,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Tuber_Staff.png",
+    image: "https://craftersmc.wiki.gg/images/Tuber_Staff.png",
     enabled: true,
   },
   {
@@ -226,7 +226,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.15",
     obtaining: ["Purchasable"],
-    image: "items/Undead_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Undead_Sword.png",
     enabled: true,
   },
   {
@@ -236,7 +236,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.5",
     obtaining: ["Quest"],
-    image: "items/Void_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Void_Sword.png",
     enabled: true,
   },
   {
@@ -246,7 +246,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Zombie_Sword.png",
+    image: "https://craftersmc.wiki.gg/images/Zombie_Sword.png",
     enabled: true,
   },
   {
@@ -256,7 +256,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.15",
     obtaining: ["Purchasable"],
-    image: "items/Artisanal_Shortbow.png",
+    image: "https://craftersmc.wiki.gg/images/Artisanal_Shortbow.png",
     enabled: true,
   },
   {
@@ -266,7 +266,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.4",
     obtaining: ["Farming Collections"],
-    image: "items/Bamboo_Blowpipe.png",
+    image: "https://craftersmc.wiki.gg/images/Bamboo_Blowpipe.png",
     enabled: true,
   },
   {
@@ -276,7 +276,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Bow.png",
+    image: "https://craftersmc.wiki.gg/images/Bow.png",
     enabled: true,
   },
   {
@@ -286,7 +286,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Decent_Bow.png",
+    image: "https://craftersmc.wiki.gg/images/Decent_Bow.png",
     enabled: true,
   },
   {
@@ -296,7 +296,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.5",
     obtaining: ["Quest"],
-    image: "items/Dragon_Shortbow.png",
+    image: "https://craftersmc.wiki.gg/images/Dragon_Shortbow.png",
     enabled: true,
   },
   {
@@ -306,7 +306,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/End_Stone_Bow.png",
+    image: "https://craftersmc.wiki.gg/images/End_Stone_Bow.png",
     enabled: true,
   },
   {
@@ -316,7 +316,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.5",
     obtaining: ["Combat Collections"],
-    image: "items/Ender_Bow.png",
+    image: "https://craftersmc.wiki.gg/images/Ender_Bow.png",
     enabled: true,
   },
   {
@@ -326,7 +326,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.15",
     obtaining: ["Combat Collections"],
-    image: "items/Explosive_Bow.png",
+    image: "https://craftersmc.wiki.gg/images/Explosive_Bow.png",
     enabled: true,
   },
   {
@@ -336,7 +336,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Hurricane_Bow.png",
+    image: "https://craftersmc.wiki.gg/images/Hurricane_Bow.png",
     enabled: true,
   },
   {
@@ -346,7 +346,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.15",
     obtaining: ["Combat Collections"],
-    image: "items/Magma_Bow.png",
+    image: "https://craftersmc.wiki.gg/images/Magma_Bow.png",
     enabled: true,
   },
   {
@@ -356,7 +356,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.15",
     obtaining: ["Combat Collections"],
-    image: "items/Runaan's_Bow.png",
+    image: "https://craftersmc.wiki.gg/images/Runaan's_Bow.png",
     enabled: true,
   },
   {
@@ -366,7 +366,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.0",
     obtaining: ["Foraging Collections"],
-    image: "items/Savanna_Bow.png",
+    image: "https://craftersmc.wiki.gg/images/Savanna_Bow.png",
     enabled: true,
   },
   {
@@ -376,7 +376,7 @@ const ITEMS = [
     itemType: "Weapon",
     addedVersion: "0.1.12",
     obtaining: ["Combat Collections"],
-    image: "items/Flamerang.png",
+    image: "https://craftersmc.wiki.gg/images/Flamerang.png",
     enabled: true,
   },
   {
@@ -386,7 +386,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Foraging Collections"],
-    image: "items/Armor_of_Growth.png",
+    image: "https://craftersmc.wiki.gg/images/Chestplate_of_Growth.png",
     enabled: true,
   },
   {
@@ -396,7 +396,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Armor_of_the_Pack.png",
+    image: "https://craftersmc.wiki.gg/images/Chestplate_of_the_Pack.png",
     enabled: true,
   },
   {
@@ -406,7 +406,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Blaze_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Blaze_Chestplate.png",
     enabled: true,
   },
   {
@@ -416,7 +416,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.3",
     obtaining: ["Farming Collections"],
-    image: "items/Cactus_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Cactus_Chestplate.png",
     enabled: true,
   },
   {
@@ -426,7 +426,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.3",
     obtaining: ["Purchasable"],
-    image: "items/Cheap_Tuxedo.png",
+    image: "https://craftersmc.wiki.gg/images/Cheap_Tuxedo_Chestplate.png",
     enabled: true,
   },
   {
@@ -436,7 +436,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.4",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Cropie_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Cropie_Chestplate.png",
     enabled: true,
   },
   {
@@ -446,7 +446,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Crystal_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Crystal_Chestplate.png",
     enabled: true,
   },
   {
@@ -456,7 +456,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.3",
     obtaining: ["Purchasable"],
-    image: "items/Elegant_Tuxedo.png",
+    image: "https://craftersmc.wiki.gg/images/Elegant_Tuxedo_Chestplate.png",
     enabled: true,
   },
   {
@@ -466,7 +466,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Emerald_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Emerald_Chestplate.png",
     enabled: true,
   },
   {
@@ -476,7 +476,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/ENder_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Ender_Chestplate.png",
     enabled: true,
   },
   {
@@ -486,7 +486,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.3",
     obtaining: ["Purchasable"],
-    image: "items/Fancy_Tuxedo.png",
+    image: "https://craftersmc.wiki.gg/images/Fancy_Tuxedo_Chestplate.png",
     enabled: true,
   },
   {
@@ -496,7 +496,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Farm_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Farm_Chestplate.png",
     enabled: true,
   },
   {
@@ -506,7 +506,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Farmer_Suit.png",
+    image: "https://craftersmc.wiki.gg/images/Farmer_Suit.png",
     enabled: true,
   },
   {
@@ -516,7 +516,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.4",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Fermento_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Fermento_Chestplate.png",
     enabled: true,
   },
   {
@@ -526,7 +526,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Frozen_Blaze_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Frozen_Blaze_Chestplate.png",
     enabled: true,
   },
   {
@@ -536,7 +536,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Golem_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Golem_Chestplate.png",
     enabled: true,
   },
   {
@@ -546,7 +546,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Hardened_Diamond_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Hardened_Diamond_Chestplate.png",
     enabled: true,
   },
   {
@@ -556,7 +556,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Drop"],
-    image: "items/Lapis_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Lapis_Chestplate.png",
     enabled: true,
   },
   {
@@ -566,7 +566,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Foraging Collections"],
-    image: "items/Leaflet_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Leaflet_Chestplate.png",
     enabled: true,
   },
   {
@@ -576,7 +576,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Magma_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Magma_Chestplate.png",
     enabled: true,
   },
   {
@@ -586,7 +586,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Mastiff_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Mastiff_Chestplate.png",
     enabled: true,
   },
   {
@@ -596,7 +596,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.4",
     obtaining: ["Farming Collections"],
-    image: "items/Melon_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Melon_Chestplate.png",
     enabled: true,
   },
   {
@@ -606,7 +606,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Miner's_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Miner's_Chestplate.png",
     enabled: true,
   },
   {
@@ -616,7 +616,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Mushroom_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Mushroom_Chestplate.png",
     enabled: true,
   },
   {
@@ -626,7 +626,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Drop", "Crafting (no req.)"],
-    image: "items/Old_Dragon_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Old_Dragon_Chestplate.png",
     enabled: true,
   },
   {
@@ -636,7 +636,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.4",
     obtaining: ["Slayer Collections"],
-    image: "items/Permafrost_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Permafrost_Chestplate.png",
     enabled: true,
   },
   {
@@ -646,7 +646,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Drop", "Crafting (no req.)"],
-    image: "items/Protector_Dragon_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Protector_Dragon_Chestplate.png",
     enabled: true,
   },
   {
@@ -656,7 +656,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Pumpkin_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Pumpkin_Chestplate.png",
     enabled: true,
   },
   {
@@ -666,7 +666,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Reaper_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Reaper_Chestplate.png",
     enabled: true,
   },
   {
@@ -676,7 +676,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.8",
     obtaining: ["Drop"],
-    image: "items/Redstone_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Redstone_Chestplate.png",
     enabled: true,
   },
   {
@@ -686,7 +686,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Revenant_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Revenant_Chestplate.png",
     enabled: true,
   },
   {
@@ -696,7 +696,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Speedster_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Speedster_Chestplate.png",
     enabled: true,
   },
   {
@@ -706,7 +706,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.4",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Squash_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Squash_Chestplate.png",
     enabled: true,
   },
   {
@@ -716,7 +716,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Drop", "Crafting (no req.)"],
-    image: "items/Strong_Dragon_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Strong_Dragon_Chestplate.png",
     enabled: true,
   },
   {
@@ -726,7 +726,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Drop", "Crafting (no req.)"],
-    image: "items/Superior_Dragon_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Superior_Dragon_Chestplate.png",
     enabled: true,
   },
   {
@@ -736,7 +736,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Drop", "Crafting (no req.)"],
-    image: "items/Unstable_Dragon_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Unstable_Dragon_Chestplate.png",
     enabled: true,
   },
   {
@@ -746,7 +746,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Drop", "Crafting (no req.)"],
-    image: "items/Wise_Dragon_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Wise_Dragon_Chestplate.png",
     enabled: true,
   },
   {
@@ -756,7 +756,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Drop", "Crafting (no req.)"],
-    image: "items/Young_Dragon_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Young_Dragon_Chestplate.png",
     enabled: true,
   },
   {
@@ -766,7 +766,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Zombie_Armor.png",
+    image: "https://craftersmc.wiki.gg/images/Zombie_Chestplate.png",
     enabled: true,
   },
   {
@@ -776,7 +776,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.3",
     obtaining: ["Slayer Collections"],
-    image: "items/Atoned_Helmet.png",
+    image: "https://craftersmc.wiki.gg/images/Atoned_Helmet.png",
     enabled: true,
   },
   {
@@ -786,7 +786,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Creeper_Hat.png",
+    image: "https://craftersmc.wiki.gg/images/Creeper_Hat.png",
     enabled: true,
   },
   {
@@ -796,7 +796,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Creeper_Pants.png",
+    image: "https://craftersmc.wiki.gg/images/Creeper_Pants.png",
     enabled: true,
   },
   {
@@ -806,7 +806,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Crystallized_Heart.png",
+    image: "https://craftersmc.wiki.gg/images/Crystallized_Heart.png",
     enabled: true,
   },
   {
@@ -816,7 +816,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Quest"],
-    image: "items/Enderman_Mask.png",
+    image: "https://craftersmc.wiki.gg/images/Enderman_Mask.png",
     enabled: true,
   },
   {
@@ -826,7 +826,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.14",
     obtaining: ["Farming Collections"],
-    image: "items/Farmer_Boots.png",
+    image: "https://craftersmc.wiki.gg/images/Farmer_Boots.png",
     enabled: true,
   },
   {
@@ -836,7 +836,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.4",
     obtaining: ["Farming Collections"],
-    image: "items/Lantern_Helmet.png",
+    image: "https://craftersmc.wiki.gg/images/Lantern_Helmet.png",
     enabled: true,
   },
   {
@@ -846,7 +846,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Magma_Cube_Helmet.png",
+    image: "https://craftersmc.wiki.gg/images/Magma_Cube_Helmet.png",
     enabled: true,
   },
   {
@@ -856,7 +856,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Obsidian_Chestplate.png",
+    image: "https://craftersmc.wiki.gg/images/Obsidian_Chestplate.png",
     enabled: true,
   },
   {
@@ -866,7 +866,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.14",
     obtaining: ["Farming Collections"],
-    image: "items/Rancher_Boots.png",
+    image: "https://craftersmc.wiki.gg/images/Rancher_Boots.png",
     enabled: true,
   },
   {
@@ -876,7 +876,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Reaper_Mask.png",
+    image: "https://craftersmc.wiki.gg/images/Reaper_Mask.png",
     enabled: true,
   },
   {
@@ -886,7 +886,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Revived_Heart.png",
+    image: "https://craftersmc.wiki.gg/images/Revived_Heart.png",
     enabled: true,
   },
   {
@@ -896,7 +896,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Skeleton_Hat.png",
+    image: "https://craftersmc.wiki.gg/images/Skeleton_Hat.png",
     enabled: true,
   },
   {
@@ -906,7 +906,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.4",
     obtaining: ["Combat Collections"],
-    image: "items/Skeleton_Helmet.png",
+    image: "https://craftersmc.wiki.gg/images/Skeleton_Helmet.png",
     enabled: true,
   },
   {
@@ -916,7 +916,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Slime_Hat.png",
+    image: "https://craftersmc.wiki.gg/images/Slime_Hat.png",
     enabled: true,
   },
   {
@@ -926,7 +926,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Spider_Boots.png",
+    image: "https://craftersmc.wiki.gg/images/Spider_Boots.png",
     enabled: true,
   },
   {
@@ -936,7 +936,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.4",
     obtaining: ["Combat Collections"],
-    image: "items/Spider_Hat.png",
+    image: "https://craftersmc.wiki.gg/images/Spider_Hat.png",
     enabled: true,
   },
   {
@@ -946,7 +946,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Zombie_Hat.png",
+    image: "https://craftersmc.wiki.gg/images/Zombie_Head.png",
     enabled: true,
   },
   {
@@ -956,7 +956,7 @@ const ITEMS = [
     itemType: "Armor",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Zombie_Heart.png",
+    image: "https://craftersmc.wiki.gg/images/Zombie_Heart.png",
     enabled: true,
   },
   {
@@ -966,7 +966,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Farming Collections"],
-    image: "items/Bamboo_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Bamboo_Ring.png",
     enabled: true,
   },
   {
@@ -976,7 +976,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Farming Collections"],
-    image: "items/Bamboo_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Bamboo_Talisman.png",
     enabled: true,
   },
   {
@@ -986,7 +986,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "items/Blood_God_Crest.png",
+    image: "https://craftersmc.wiki.gg/images/Blood_God_Crest.png",
     enabled: true,
   },
   {
@@ -996,7 +996,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Quest"],
-    image: "items/Cake Slice.png",
+    image: "https://craftersmc.wiki.gg/images/Cake_Slice.png",
     enabled: true,
   },
   {
@@ -1006,7 +1006,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Quest"],
-    image: "items/Campfire_Adept_Badge.png",
+    image: "https://craftersmc.wiki.gg/images/Campfire_Adept_Badge.png",
     enabled: true,
   },
   {
@@ -1016,7 +1016,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Quest"],
-    image: "items/Campfire_Cultist_Badge.png",
+    image: "https://craftersmc.wiki.gg/images/Campfire_Cultist_Badge.png",
     enabled: true,
   },
   {
@@ -1026,7 +1026,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Quest"],
-    image: "items/Campfire_Initiate_Badge.png",
+    image: "https://craftersmc.wiki.gg/images/Campfire_Initiate_Badge.png",
     enabled: true,
   },
   {
@@ -1036,7 +1036,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Quest"],
-    image: "items/Campfire_God_Badge.png",
+    image: "https://craftersmc.wiki.gg/images/Campfire_God_Badge.png",
     enabled: true,
   },
   {
@@ -1046,7 +1046,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Quest"],
-    image: "items/Campfire_Scion_Badge.png",
+    image: "https://craftersmc.wiki.gg/images/Campfire_Scion_Badge.png",
     enabled: true,
   },
   {
@@ -1056,7 +1056,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Coins_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Coins_Talisman.png",
     enabled: true,
   },
   {
@@ -1066,7 +1066,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Special"],
-    image: "items/Creative_Mind.png",
+    image: "https://craftersmc.wiki.gg/images/Creative_Mind.png",
     enabled: true,
   },
   {
@@ -1076,7 +1076,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Cropie_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Cropie_Talisman.png",
     enabled: true,
   },
   {
@@ -1086,7 +1086,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Purchasable"],
-    image: "items/Dayfreezer.png",
+    image: "https://craftersmc.wiki.gg/images/Dayfreezer.png",
     enabled: true,
   },
   {
@@ -1096,7 +1096,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.5",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Draconic_Artifact.png",
+    image: "https://craftersmc.wiki.gg/images/Draconic_Artifact.png",
     enabled: true,
   },
   {
@@ -1106,7 +1106,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.5",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Draconic_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Draconic_Ring.png",
     enabled: true,
   },
   {
@@ -1116,7 +1116,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.5",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Draconic_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Draconic_Talisman.png",
     enabled: true,
   },
   {
@@ -1126,7 +1126,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Emerald_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Emerald_Ring.png",
     enabled: true,
   },
   {
@@ -1136,7 +1136,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Experience_Artifact.png",
+    image: "https://craftersmc.wiki.gg/images/Experience_Artifact.png",
     enabled: true,
   },
   {
@@ -1146,7 +1146,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.5",
     obtaining: ["Farming Collections"],
-    image: "items/Farmer_Orb.png",
+    image: "https://craftersmc.wiki.gg/images/Farmer_Orb.png",
     enabled: true,
   },
   {
@@ -1156,7 +1156,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Farming_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Farming_Talisman.png",
     enabled: true,
   },
   {
@@ -1166,7 +1166,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "items/Farmionaire_Artifact.png",
+    image: "https://craftersmc.wiki.gg/images/Farmionaire_Artifact.png",
     enabled: true,
   },
   {
@@ -1176,7 +1176,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "items/Farmionaire_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Farmionaire_Ring.png",
     enabled: true,
   },
   {
@@ -1186,7 +1186,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "items/Farmionaire_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Farmionaire_Talisman.png",
     enabled: true,
   },
   {
@@ -1196,7 +1196,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Feather_Artifact.png",
+    image: "https://craftersmc.wiki.gg/images/Feather_Artifact.png",
     enabled: true,
   },
   {
@@ -1206,7 +1206,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Feather_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Feather_Ring.png",
     enabled: true,
   },
   {
@@ -1216,7 +1216,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Feather_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Feather_Talisman.png",
     enabled: true,
   },
   {
@@ -1226,7 +1226,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Fermento_Artifact.png",
+    image: "https://craftersmc.wiki.gg/images/Fermento_Artifact.png",
     enabled: true,
   },
   {
@@ -1236,7 +1236,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.12",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Fire_Devourer.png",
+    image: "https://craftersmc.wiki.gg/images/Fire_Devourer.png",
     enabled: true,
   },
   {
@@ -1246,7 +1246,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.12",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Fire_Extinguisher.png",
+    image: "https://craftersmc.wiki.gg/images/Fire_Extinguisher.png",
     enabled: true,
   },
   {
@@ -1256,7 +1256,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Fire_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Fire_Talisman.png",
     enabled: true,
   },
   {
@@ -1266,7 +1266,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Slayer Collections"],
-    image: "items/Frostclaw_Relic.png",
+    image: "https://craftersmc.wiki.gg/images/Frostclaw_Relic.png",
     enabled: true,
   },
   {
@@ -1276,7 +1276,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Special"],
-    image: "items/Game_Breaker.png",
+    image: "https://craftersmc.wiki.gg/images/Game_Breaker.png",
     enabled: true,
   },
   {
@@ -1286,7 +1286,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Golden_Feather_Boots.png",
+    image: "https://craftersmc.wiki.gg/images/Golden_Feather_Boots.png",
     enabled: true,
   },
   {
@@ -1296,7 +1296,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Gravity_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Gravity_Talisman.png",
     enabled: true,
   },
   {
@@ -1306,7 +1306,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Hunter_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Hunter_Ring.png",
     enabled: true,
   },
   {
@@ -1316,7 +1316,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Hunter_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Hunter_Talisman.png",
     enabled: true,
   },
   {
@@ -1326,7 +1326,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Intimidation_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Intimidation_Talisman.png",
     enabled: true,
   },
   {
@@ -1336,7 +1336,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Lava_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Lava_Talisman.png",
     enabled: true,
   },
   {
@@ -1346,7 +1346,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.10",
     obtaining: ["Special"],
-    image: "items/Magical_Encyclopedia.png",
+    image: "https://craftersmc.wiki.gg/images/Magical_Encyclopedia.png",
     enabled: true,
   },
   {
@@ -1356,7 +1356,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Magnetic_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Magnetic_Talisman.png",
     enabled: true,
   },
   {
@@ -1366,7 +1366,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Mine_Affinity_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Mine_Affinity_Talisman.png",
     enabled: true,
   },
   {
@@ -1376,7 +1376,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Purchasable"],
-    image: "items/New_Year's_Cake_Bag.png",
+    image: "https://craftersmc.wiki.gg/images/New_Year's_Cake_Bag.png",
     enabled: true,
   },
   {
@@ -1386,7 +1386,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Night_Vision_Charm.png",
+    image: "https://craftersmc.wiki.gg/images/Night_Vision_Charm.png",
     enabled: true,
   },
   {
@@ -1396,7 +1396,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Purchasable"],
-    image: "items/Nightfreezer.png",
+    image: "https://craftersmc.wiki.gg/images/Nightfreezer.png",
     enabled: true,
   },
   {
@@ -1406,7 +1406,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.2",
     obtaining: ["Farming Collections"],
-    image: "items/Piggy_Bank.png",
+    image: "https://craftersmc.wiki.gg/images/Piggy_Bank.png",
     enabled: true,
   },
   {
@@ -1416,7 +1416,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.5",
     obtaining: ["Farming Collections"],
-    image: "items/Pig's_Foot.png",
+    image: "https://craftersmc.wiki.gg/images/Pig's_Foot.png",
     enabled: true,
   },
   {
@@ -1426,7 +1426,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Drop"],
-    image: "items/Potato_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Potato_Talisman.png",
     enabled: true,
   },
   {
@@ -1436,7 +1436,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.3",
     obtaining: ["Slayer Collections"],
-    image: "items/Reaper_Orb.png",
+    image: "https://craftersmc.wiki.gg/images/Reaper_Orb.png",
     enabled: true,
   },
   {
@@ -1446,7 +1446,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Red_Claw_Artifact.png",
+    image: "https://craftersmc.wiki.gg/images/Red_Claw_Artifact.png",
     enabled: true,
   },
   {
@@ -1456,7 +1456,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Red_Claw_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Red_Claw_Ring.png",
     enabled: true,
   },
   {
@@ -1466,7 +1466,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Red_Claw_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Red_Claw_Talisman.png",
     enabled: true,
   },
   {
@@ -1476,7 +1476,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.12",
     obtaining: ["Purchasable"],
-    image: "items/Scavenger_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Scavenger_Talisman.png",
     enabled: true,
   },
   {
@@ -1486,7 +1486,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Quest"],
-    image: "items/Seal_of_the_Oceans.png",
+    image: "https://craftersmc.wiki.gg/images/Seal_of_the_Oceans.png",
     enabled: true,
   },
   {
@@ -1496,7 +1496,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Quest"],
-    image: "items/Seal_of_the_Seas.png",
+    image: "https://craftersmc.wiki.gg/images/Seal_of_the_Seas.png",
     enabled: true,
   },
   {
@@ -1506,7 +1506,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Skeleton_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Skeleton_Talisman.png",
     enabled: true,
   },
   {
@@ -1516,7 +1516,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Sky's_Badge.png",
+    image: "https://craftersmc.wiki.gg/images/Sky's_Badge.png",
     enabled: true,
   },
   {
@@ -1526,7 +1526,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Speed_Artifact.png",
+    image: "https://craftersmc.wiki.gg/images/Speed_Artifact.png",
     enabled: true,
   },
   {
@@ -1536,7 +1536,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Speed_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Speed_Ring.png",
     enabled: true,
   },
   {
@@ -1546,7 +1546,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Speed_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Speed_Talisman.png",
     enabled: true,
   },
   {
@@ -1556,7 +1556,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.4",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Squash_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Squash_Ring.png",
     enabled: true,
   },
   {
@@ -1566,7 +1566,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Vaccine_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Vaccine_Talisman.png",
     enabled: true,
   },
   {
@@ -1576,7 +1576,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Purchasable"],
-    image: "items/Village_Affinity_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Village_Affinity_Talisman.png",
     enabled: true,
   },
   {
@@ -1586,7 +1586,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.3.5",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Wolf_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Wolf_Ring.png",
     enabled: true,
   },
   {
@@ -1596,7 +1596,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.3.5",
     obtaining: ["Drop"],
-    image: "items/Wolf_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Wolf_Talisman.png",
     enabled: true,
   },
   {
@@ -1606,7 +1606,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.1.0",
     obtaining: ["Foraging Collections"],
-    image: "items/Wood_Affinity_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Wood_Affinity_Talisman.png",
     enabled: true,
   },
   {
@@ -1616,7 +1616,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Zombie_Artifact.png",
+    image: "https://craftersmc.wiki.gg/images/Zombie_Artifact.png",
     enabled: true,
   },
   {
@@ -1626,7 +1626,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Zombie_Ring.png",
+    image: "https://craftersmc.wiki.gg/images/Zombie_Ring.png",
     enabled: true,
   },
   {
@@ -1636,7 +1636,7 @@ const ITEMS = [
     itemType: "Accessory",
     addedVersion: "0.2",
     obtaining: ["Purchasable"],
-    image: "items/Zombie_Talisman.png",
+    image: "https://craftersmc.wiki.gg/images/Zombie_Talisman.png",
     enabled: true,
   },
   {
@@ -1646,7 +1646,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Mining Collections"],
-    image: "items/Lapis_Pickaxe.png",
+    image: "https://craftersmc.wiki.gg/images/Lapis_Pickaxe.png",
     enabled: true,
   },
   {
@@ -1656,7 +1656,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Stonk.png",
+    image: "https://craftersmc.wiki.gg/images/Stonk.png",
     enabled: true,
   },
   {
@@ -1666,7 +1666,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.1.0",
     obtaining: ["Combat Collections"],
-    image: "items/Zombie_Pickaxe.png",
+    image: "https://craftersmc.wiki.gg/images/Zombie_Pickaxe.png",
     enabled: true,
   },
   {
@@ -1676,7 +1676,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Foraging Collections"],
-    image: "items/Bamboorang.png",
+    image: "https://craftersmc.wiki.gg/images/Bamboorang.png",
     enabled: true,
   },
   {
@@ -1686,7 +1686,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "items/Cocoa_Chopper.png",
+    image: "https://craftersmc.wiki.gg/images/Cocoa_Chopper.png",
     enabled: true,
   },
   {
@@ -1696,7 +1696,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.1.0",
     obtaining: ["Foraging Collections"],
-    image: "items/Jungle_Axe.png",
+    image: "https://craftersmc.wiki.gg/images/Jungle_Axe.png",
     enabled: true,
   },
   {
@@ -1706,7 +1706,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.1.0",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Promising_Axe.png",
+    image: "https://craftersmc.wiki.gg/images/Promising_Axe.png",
     enabled: true,
   },
   {
@@ -1716,7 +1716,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Treecapitator.png",
+    image: "https://craftersmc.wiki.gg/images/Treecapitator.png",
     enabled: true,
   },
   {
@@ -1726,17 +1726,17 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "items/Cactus_Chainsaw.png",
+    image: "https://craftersmc.wiki.gg/images/Cactus_Chainsaw.png",
     enabled: true,
   },
   {
     id: "fungi-cutter",
     name: "Fungi Cutter",
-    rarity: "Legendary",
+    rarity: "Epic",
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "items/Fungi_Cutter.png",
+    image: "https://craftersmc.wiki.gg/images/Fungi_Cutter.png",
     enabled: true,
   },
   {
@@ -1746,7 +1746,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "items/Hoe of Great Tilling.png",
+    image: "https://craftersmc.wiki.gg/images/Hoe of Great Tilling.png",
     enabled: true,
   },
   {
@@ -1756,7 +1756,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "items/Hoe of Greater Tilling.png",
+    image: "https://craftersmc.wiki.gg/images/Hoe of Greater Tilling.png",
     enabled: true,
   },
   {
@@ -1766,7 +1766,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.4",
     obtaining: ["Purchasable"],
-    image: "items/Hoe of Greatest Tilling.png",
+    image: "https://craftersmc.wiki.gg/images/Hoe of Greatest Tilling.png",
     enabled: true,
   },
   {
@@ -1776,7 +1776,7 @@ const ITEMS = [
     itemType: "Tool",
     addedVersion: "0.2",
     obtaining: ["Purchasable"],
-    image: "items/Rookie_Hoe.png",
+    image: "https://craftersmc.wiki.gg/images/Rookie_Hoe.png",
     enabled: true,
   },
   {
@@ -1787,7 +1787,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.5",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Catalyst.png",
+    image: "https://craftersmc.wiki.gg/images/Catalyst.png",
     enabled: true,
   },
   {
@@ -1798,7 +1798,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Farming Collections"],
-    image: "items/Enchanted_Bread.png",
+    image: "https://craftersmc.wiki.gg/images/Enchanted_Bread.png",
     enabled: true,
   },
   {
@@ -1809,7 +1809,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Enchanted_Charcoal.png",
+    image: "https://craftersmc.wiki.gg/images/Enchanted_Charcoal.png",
     enabled: true,
   },
   {
@@ -1820,7 +1820,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Enchanted_Coal.png",
+    image: "https://craftersmc.wiki.gg/images/Enchanted_Coal.png",
     enabled: true,
   },
   {
@@ -1831,7 +1831,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Enchanted_Lava_Bucket.png",
+    image: "https://craftersmc.wiki.gg/images/Enchanted_Lava_Bucket.png",
     enabled: true,
   },
   {
@@ -1842,7 +1842,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.2",
     obtaining: ["Drop"],
-    image: "items/Foul_Flesh.png",
+    image: "https://craftersmc.wiki.gg/images/Foul_Flesh.png",
     enabled: true,
   },
   {
@@ -1853,7 +1853,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.2",
     obtaining: ["Drop"],
-    image: "items/Hamster_Wheel.png",
+    image: "https://craftersmc.wiki.gg/images/Hamster_Wheel.png",
     enabled: true,
   },
   {
@@ -1864,7 +1864,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.5",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Hyper_Catalyst.png",
+    image: "https://craftersmc.wiki.gg/images/Hyper_Catalyst.png",
     enabled: true,
   },
   {
@@ -1875,7 +1875,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Budget_Hopper.png",
+    image: "https://craftersmc.wiki.gg/images/Budget_Hopper.png",
     enabled: true,
   },
   {
@@ -1886,7 +1886,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Enchanted_Hopper.png",
+    image: "https://craftersmc.wiki.gg/images/Enchanted_Hopper.png",
     enabled: true,
   },
   {
@@ -1897,7 +1897,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Minion_Auto_Smelter.png",
+    image: "https://craftersmc.wiki.gg/images/Minion_Auto_Smelter.png",
     enabled: true,
   },
   {
@@ -1908,7 +1908,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Compactor.png",
+    image: "https://craftersmc.wiki.gg/images/Compactor.png",
     enabled: true,
   },
   {
@@ -1919,7 +1919,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Super_Compactor_3000.png",
+    image: "https://craftersmc.wiki.gg/images/Super_Compactor_3000.png",
     enabled: true,
   },
   {
@@ -1930,7 +1930,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Mining Collections"],
-    image: "items/Diamond_Spreading.png",
+    image: "https://craftersmc.wiki.gg/images/Diamond_Spreading.png",
     enabled: true,
   },
   {
@@ -1941,7 +1941,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.4",
     obtaining: ["Drop"],
-    image: "items/Potato_Spreading.png",
+    image: "https://craftersmc.wiki.gg/images/Potato_Spreading.png",
     enabled: true,
   },
   {
@@ -1952,7 +1952,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.3",
     obtaining: ["Farming Collections"],
-    image: "items/Enchanted_Duck_Egg.png",
+    image: "https://craftersmc.wiki.gg/images/Enchanted_Duck_Egg.png",
     enabled: true,
   },
   {
@@ -1963,7 +1963,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Foraging Collections"],
-    image: "items/Small_Minion_Backpack.png",
+    image: "https://craftersmc.wiki.gg/images/Small_Minion_Backpack.png",
     enabled: true,
   },
   {
@@ -1974,7 +1974,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Foraging Collections"],
-    image: "items/Medium_Minion_Backpack.png",
+    image: "https://craftersmc.wiki.gg/images/Medium_Minion_Backpack.png",
     enabled: true,
   },
   {
@@ -1985,7 +1985,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.1.0",
     obtaining: ["Foraging Collections"],
-    image: "items/Large_Minion_Backpack.png",
+    image: "https://craftersmc.wiki.gg/images/Large_Minion_Backpack.png",
     enabled: true,
   },
   {
@@ -1996,7 +1996,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.3",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Huge_Minion_Backpack.png",
+    image: "https://craftersmc.wiki.gg/images/Huge_Minion_Backpack.png",
     enabled: true,
   },
   {
@@ -2007,7 +2007,7 @@ const ITEMS = [
     itemGroup: "Minion",
     addedVersion: "0.3",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Giant_Minion_Backpack.png",
+    image: "https://craftersmc.wiki.gg/images/Giant_Minion_Backpack.png",
     enabled: true,
   },
   {
@@ -2018,7 +2018,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Farming Collections"],
-    image: "items/Simple_Beetroot_Candy.png",
+    image: "https://craftersmc.wiki.gg/images/Simple_Beetroot_Candy.png",
     enabled: true,
   },
   {
@@ -2029,7 +2029,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Farming Collections"],
-    image: "items/Great_Beetroot_Candy.png",
+    image: "https://craftersmc.wiki.gg/images/Great_Beetroot_Candy.png",
     enabled: true,
   },
   {
@@ -2040,7 +2040,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Farming Collections"],
-    image: "items/Superb_Beetroot_Candy.png",
+    image: "https://craftersmc.wiki.gg/images/Superb_Beetroot_Candy.png",
     enabled: true,
   },
   {
@@ -2051,7 +2051,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Ultimate_Beetroot_Candy.png",
+    image: "https://craftersmc.wiki.gg/images/Ultimate_Beetroot_Candy.png",
     enabled: true,
   },
   {
@@ -2062,7 +2062,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Purchasable"],
-    image: "items/Big_Teeth.png",
+    image: "https://craftersmc.wiki.gg/images/Big_Teeth.png",
     enabled: true,
   },
   {
@@ -2073,7 +2073,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Purchasable"],
-    image: "items/Iron_Claws.png",
+    image: "https://craftersmc.wiki.gg/images/Iron_Claws.png",
     enabled: true,
   },
   {
@@ -2084,7 +2084,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Purchasable"],
-    image: "items/Hardened_Scales.png",
+    image: "https://craftersmc.wiki.gg/images/Hardened_Scales.png",
     enabled: true,
   },
   {
@@ -2095,7 +2095,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Purchasable"],
-    image: "items/Sharpened_Claws.png",
+    image: "https://craftersmc.wiki.gg/images/Sharpened_Claws.png",
     enabled: true,
   },
   {
@@ -2106,7 +2106,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Purchasable"],
-    image: "items/Bubblegum.png",
+    image: "https://craftersmc.wiki.gg/images/Bubblegum.png",
     enabled: true,
   },
   {
@@ -2117,7 +2117,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Exp_Share.png",
+    image: "https://craftersmc.wiki.gg/images/Exp_Share.png",
     enabled: true,
   },
   {
@@ -2128,7 +2128,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Mining Collections"],
-    image: "items/Textbook.png",
+    image: "https://craftersmc.wiki.gg/images/Textbook.png",
     enabled: true,
   },
   {
@@ -2139,7 +2139,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.5",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Tier_Boost.png",
+    image: "https://craftersmc.wiki.gg/images/Tier_Boost.png",
     enabled: true,
   },
   {
@@ -2150,7 +2150,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.3",
     obtaining: ["Special"],
-    image: "items/Reaper_Gem.png",
+    image: "https://craftersmc.wiki.gg/images/Reaper_Gem.png",
     enabled: true,
   },
   {
@@ -2161,7 +2161,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.4",
     obtaining: ["Special"],
-    image: "items/Permafrost Core.png",
+    image: "https://craftersmc.wiki.gg/images/Permafrost Core.png",
     enabled: true,
   },
   {
@@ -2171,7 +2171,7 @@ const ITEMS = [
     itemType: "Wand",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Wand_of_Healing.png",
+    image: "https://craftersmc.wiki.gg/images/Wand_of_Healing.png",
     enabled: true,
   },
   {
@@ -2181,7 +2181,7 @@ const ITEMS = [
     itemType: "Wand",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Wand_of_Mending.png",
+    image: "https://craftersmc.wiki.gg/images/Wand_of_Mending.png",
     enabled: true,
   },
   {
@@ -2191,7 +2191,7 @@ const ITEMS = [
     itemType: "Wand",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Wand_of_Restoration.png",
+    image: "https://craftersmc.wiki.gg/images/Wand_of_Restoration.png",
     enabled: true,
   },
   {
@@ -2201,7 +2201,7 @@ const ITEMS = [
     itemType: "Wand",
     addedVersion: "0.2",
     obtaining: ["Slayer Collections"],
-    image: "items/Wand_of_Atonement.png",
+    image: "https://craftersmc.wiki.gg/images/Wand_of_Atonement.png",
     enabled: true,
   },
   {
@@ -2211,7 +2211,7 @@ const ITEMS = [
     itemType: "Equipment",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Ender_Necklace.png",
+    image: "https://craftersmc.wiki.gg/images/Ender_Necklace.png",
     enabled: true,
   },
   {
@@ -2221,7 +2221,7 @@ const ITEMS = [
     itemType: "Equipment",
     addedVersion: "0.5",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Dragonfade_Cloak.png",
+    image: "https://craftersmc.wiki.gg/images/Dragonfade_Cloak.png",
     enabled: true,
   },
   {
@@ -2231,7 +2231,7 @@ const ITEMS = [
     itemType: "Equipment",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Ender_Cloak.png",
+    image: "https://craftersmc.wiki.gg/images/Ender_Cloak.png",
     enabled: true,
   },
   {
@@ -2241,7 +2241,7 @@ const ITEMS = [
     itemType: "Equipment",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Ender_Belt.png",
+    image: "https://craftersmc.wiki.gg/images/Ender_Belt.png",
     enabled: true,
   },
   {
@@ -2251,7 +2251,7 @@ const ITEMS = [
     itemType: "Equipment",
     addedVersion: "0.5",
     obtaining: ["Crafting (no req.)"],
-    image: "items/Dragonfade_Gauntlet.png",
+    image: "https://craftersmc.wiki.gg/images/Dragonfade_Gauntlet.png",
     enabled: true,
   },
   {
@@ -2261,7 +2261,7 @@ const ITEMS = [
     itemType: "Equipment",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Ender_Gauntlet.png",
+    image: "https://craftersmc.wiki.gg/images/Ender_Gauntlet.png",
     enabled: true,
   },
   {
@@ -2271,17 +2271,17 @@ const ITEMS = [
     itemType: "Reforge Stone",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Andesite_Whetstone.png",
+    image: "https://craftersmc.wiki.gg/images/Andesite_Whetstone.png",
     enabled: true,
   },
   {
-    id: "blessed-fruşt",
+    id: "blessed-fruit",
     name: "Blessed Fruit",
     rarity: "Epic",
     itemType: "Reforge Stone",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Blessed_Fruit.png",
+    image: "https://craftersmc.wiki.gg/images/Blessed_Fruit.png",
     enabled: true,
   },
   {
@@ -2291,7 +2291,7 @@ const ITEMS = [
     itemType: "Reforge Stone",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Dirt_Bottle.png",
+    image: "https://craftersmc.wiki.gg/images/Dirt_Bottle.png",
     enabled: true,
   },
   {
@@ -2301,7 +2301,7 @@ const ITEMS = [
     itemType: "Reforge Stone",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Dragon_Claw.png",
+    image: "https://craftersmc.wiki.gg/images/Dragon_Claw.png",
     enabled: true,
   },
   {
@@ -2311,7 +2311,7 @@ const ITEMS = [
     itemType: "Reforge Stone",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Dragon_Horn.png",
+    image: "https://craftersmc.wiki.gg/images/Dragon_Horn.png",
     enabled: true,
   },
   {
@@ -2321,7 +2321,7 @@ const ITEMS = [
     itemType: "Reforge Stone",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Dragon_Scale.png",
+    image: "https://craftersmc.wiki.gg/images/Dragon_Scale.png",
     enabled: true,
   },
   {
@@ -2331,7 +2331,7 @@ const ITEMS = [
     itemType: "Reforge Stone",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/End_Stone_Geode.png",
+    image: "https://craftersmc.wiki.gg/images/End_Stone_Geode.png",
     enabled: true,
   },
   {
@@ -2341,7 +2341,7 @@ const ITEMS = [
     itemType: "Reforge Stone",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Moil_Log.png",
+    image: "https://craftersmc.wiki.gg/images/Moil_Log.png",
     enabled: true,
   },
   {
@@ -2351,7 +2351,7 @@ const ITEMS = [
     itemType: "Reforge Stone",
     addedVersion: "0.5",
     obtaining: ["Purchasable"],
-    image: "items/Toil_Log.png",
+    image: "https://craftersmc.wiki.gg/images/Toil_Log.png",
     enabled: true,
   },
   {
@@ -2361,7 +2361,7 @@ const ITEMS = [
     itemType: "Power Stone",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Rare_Diamond.png",
+    image: "https://craftersmc.wiki.gg/images/Rare_Diamond.png",
     enabled: true,
   },
   {
@@ -2371,7 +2371,7 @@ const ITEMS = [
     itemType: "Power Stone",
     addedVersion: "0.5",
     obtaining: ["Foraging Collections"],
-    image: "items/Acacia_Birdhouse.png",
+    image: "https://craftersmc.wiki.gg/images/Acacia_Birdhouse.png",
     enabled: true,
   },
   {
@@ -2381,7 +2381,7 @@ const ITEMS = [
     itemType: "Power Stone",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/End_Stone_Shulker.png",
+    image: "https://craftersmc.wiki.gg/images/End_Stone_Shulker.png",
     enabled: true,
   },
   {
@@ -2391,7 +2391,7 @@ const ITEMS = [
     itemType: "Power Stone",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Ender_Monocle.png",
+    image: "https://craftersmc.wiki.gg/images/Ender_Monocle.png",
     enabled: true,
   },
   {
@@ -2401,7 +2401,7 @@ const ITEMS = [
     itemType: "Power Stone",
     addedVersion: "0.5",
     obtaining: ["Drop"],
-    image: "items/Furball.png",
+    image: "https://craftersmc.wiki.gg/images/Furball.png",
     enabled: true,
   },
   {
@@ -2411,7 +2411,7 @@ const ITEMS = [
     itemType: "Power Stone",
     addedVersion: "0.5",
     obtaining: ["Mining Collections"],
-    image: "items/Obsidian_Tablet.png",
+    image: "https://craftersmc.wiki.gg/images/Obsidian_Tablet.png",
     enabled: true,
   }
 ];
@@ -2460,6 +2460,7 @@ let answer = null;
 let guesses = [];
 let won = false;
 let lost = false;
+let nearExactMessage = "";
 
 const STATS_KEY = "Craftrdle-stats";
 let stats = loadStats();
@@ -2608,19 +2609,21 @@ function showError(message) {
 }
 
 function renderGuessesLeft() {
+  let baseText = "";
+
   if (won) {
-    guessesLeftEl.textContent =
-      `Solved in ${guesses.length} guesses. 🎉`;
-    return;
+    baseText = `Solved in ${guesses.length} guesses. 🎉`;
+  } else if (lost) {
+    baseText = "0 guesses left. You lost. ❌";
+  } else {
+    baseText = `${MAX_GUESSES - guesses.length} guesses left. 🧐`;
   }
 
-  if (lost) {
-    guessesLeftEl.textContent = "0 guesses left.";
-    return;
+  if (nearExactMessage && !won) {
+    guessesLeftEl.textContent = `${baseText} ${nearExactMessage}`;
+  } else {
+    guessesLeftEl.textContent = baseText;
   }
-
-  guessesLeftEl.textContent =
-    `${MAX_GUESSES - guesses.length} guesses left.`;
 }
 
 function startNewGame() {
@@ -2629,6 +2632,7 @@ function startNewGame() {
   guesses = [];
   won = false;
   lost = false;
+  nearExactMessage = "";
   guessInput.value = "";
   clearError();
   suggestionsEl.innerHTML = "";
@@ -2650,14 +2654,27 @@ function renderSuggestions() {
     .slice(0, 8);
 
   for (const item of matches) {
-    const btn = document.createElement("button");
-    btn.className = "suggestion-btn";
-    btn.textContent = item.name;
-    btn.addEventListener("click", () => {
-      submitGuess(item.name);
-    });
-    suggestionsEl.appendChild(btn);
-  }
+  const btn = document.createElement("button");
+  btn.className = "suggestion-btn";
+
+  btn.innerHTML = `
+    <div class="suggestion-content">
+      <img
+        src="${item.image}"
+        alt="${item.name}"
+        class="suggestion-image"
+        onerror="this.src='items/fallback.png'"
+      >
+      <span class="suggestion-name">${item.name}</span>
+    </div>
+  `;
+
+  btn.addEventListener("click", () => {
+    submitGuess(item.name);
+  });
+
+  suggestionsEl.appendChild(btn);
+}
 }
 
 function createHintCard(label, display, state) {
@@ -2832,6 +2849,13 @@ function submitGuess(name) {
   suggestionsEl.innerHTML = "";
 
   const result = buildGuessResult(found, answer);
+
+  nearExactMessage = "";
+
+if (!result.isCorrect && isAllAttributesCorrect(result)) {
+  nearExactMessage = "All features are correct, but it's not the exact item!";
+}
+
   guesses.unshift(result);
 
 if (result.isCorrect) {
@@ -2852,6 +2876,15 @@ if (result.isCorrect) {
   renderGuessesLeft();
   launchConfetti();
   return;
+}
+
+function isAllAttributesCorrect(result) {
+  return (
+    result.rarityHint === "correct" &&
+    result.itemTypeHint === "correct" &&
+    result.obtainingHint === "correct" &&
+    result.addedVersionHint === "correct"
+  );
 }
 
 if (guesses.length >= MAX_GUESSES) {
