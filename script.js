@@ -2101,7 +2101,7 @@ const ITEMS = [
     itemGroup: "Pet",
     addedVersion: "0.4",
     obtaining: ["Special"],
-    image: "https://craftersmc.wiki.gg/images/Permafrost Core.png",
+    image: "https://craftersmc.wiki.gg/images/Permafrost_Core.png",
     enabled: true,
   },
   {
@@ -2665,21 +2665,29 @@ const matches = getEnabledItems()
   .slice(0, 8)
   .map(entry => entry.item);
 
-  for (const item of matches) {
+for (const item of matches) {
   const btn = document.createElement("button");
   btn.className = "suggestion-btn";
 
-  btn.innerHTML = `
-    <div class="suggestion-content">
-      <img
-        src="${item.image}"
-        alt="${item.name}"
-        class="suggestion-image"
-        onerror="this.src='https://craftersmc.wiki.gg/images/Scrap.png'"
-      >
-      <span class="suggestion-name">${item.name}</span>
-    </div>
-  `;
+  const content = document.createElement("div");
+  content.className = "suggestion-content";
+
+  const img = document.createElement("img");
+  img.src = item.image;
+  img.alt = item.name;
+  img.className = "suggestion-image";
+  img.onerror = function () {
+    this.onerror = null;
+    this.src = "PUT_YOUR_SCRAP_IMAGE_DIRECT_URL_HERE";
+  };
+
+  const name = document.createElement("span");
+  name.className = "suggestion-name";
+  name.textContent = item.name;
+
+  content.appendChild(img);
+  content.appendChild(name);
+  btn.appendChild(content);
 
   btn.addEventListener("click", () => {
     submitGuess(item.name);
