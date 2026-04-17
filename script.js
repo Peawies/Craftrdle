@@ -2185,13 +2185,13 @@ const ITEMS = [
     enabled: true,
   },
   {
-    id: "dragonfade-gauntlet",
-    name: "Dragonfade Gauntlet",
+    id: "dragonfuse-gauntlet",
+    name: "Dragonfuse Gauntlet",
     rarity: "Epic",
     itemType: "Equipment",
     addedVersion: "0.5",
     obtaining: ["Crafting (no req.)"],
-    image: "https://craftersmc.wiki.gg/images/Dragonfade_Gauntlet.png",
+    image: "https://craftersmc.wiki.gg/images/Dragonfuse_Gauntlet.png",
     enabled: true,
   },
   {
@@ -2675,7 +2675,7 @@ const matches = getEnabledItems()
         src="${item.image}"
         alt="${item.name}"
         class="suggestion-image"
-        onerror="this.src='items/fallback.png'"
+        onerror="this.src='https://craftersmc.wiki.gg/images/Scrap.png'"
       >
       <span class="suggestion-name">${item.name}</span>
     </div>
