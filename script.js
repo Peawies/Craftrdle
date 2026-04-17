@@ -2298,7 +2298,7 @@ const ITEMS = [
     id: "rare-diamond",
     name: "Rare Diamond",
     rarity: "Rare",
-    itemType: "Power Stone",
+    itemType: "Reforge Stone",
     addedVersion: "0.5",
     obtaining: ["Drop"],
     image: "https://craftersmc.wiki.gg/images/Rare_Diamond.png",
